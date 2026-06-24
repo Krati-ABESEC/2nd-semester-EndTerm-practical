@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    height: 50px;
+    width:150px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#check{
+    background-color: purple;
+    color:white;
+    border:none;
+    border-radius: 2px;
+    height:auto;
+    width:100px;
+    padding:10px;
+}
+
+#reset{
+    background-color: yellow;
+    color:black;
+    border:none;
+    border-radius: 2px;
+    height:auto;
+    width:100px;
+    padding:15px;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+body{
+    text-align: center;
+}
+
+#result{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
